@@ -140,6 +140,7 @@ class UsersTableSeeder extends Seeder
             'email' => 'pikacsur@eotvos.elte.hu',
             'password' => bcrypt('asdasdasd'),
             'verified' => true,
+            //'quote' => null,
         ]);
         $user->roles()->attach(Role::get(Role::STAFF)->id);
     }
