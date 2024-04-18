@@ -46,3 +46,5 @@ vscode:
     - EditorConfig.EditorConfig
     - streetsidesoftware.code-spell-checker
     - onecentlin.laravel-extension-pack
+image:
+    file: .gitpod.dockerfile
