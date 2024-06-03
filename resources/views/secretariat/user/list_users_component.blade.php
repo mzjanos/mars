@@ -78,6 +78,10 @@
                             @if($user->hasEducationalInformation())
                                 <br>{{ $user->educationalInformation->neptun ?? '' }}
                             @endif
+
+                        </div>
+                        <div class="col s12 xl3">
+                            <br><b><i>{{$user->quote ?? ''}}</i> </b>
                         </div>
                         <!-- Workshops -->
                         <div class="col s12 xl4">
